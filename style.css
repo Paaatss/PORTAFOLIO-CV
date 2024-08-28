@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(244, 244, 248);
     font-family: "Roboto", sans-serif;
     font-weight: 380;
     font-style: normal;
+    color: rgb(42, 43, 42);
     display: flex;
     justify-content: center;
 }
@@ -20,7 +21,7 @@ body {
 
 .status {
     display: flex;
-    border: 1px solid rgb(210, 189, 68);
+    border: 1px solid rgb(239, 216, 89);
     border-radius: 20px;
     padding: 8px;
     margin-right: 40px;
@@ -39,7 +40,7 @@ body {
 
 .p-desc {
     font-size: 22px;
-    border-bottom: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(244, 244, 248);
     padding-bottom: 30px;
     text-align: left;
 }
@@ -49,7 +50,7 @@ body {
 }
 .botonNegro {
     color: rgb(255, 255, 255);
-    background-color: rgb(239, 216, 89);
+    background-color: rgb(240, 207, 101);
     padding: 20px;
     border-radius: 30px;
     border: 0px;
@@ -61,17 +62,17 @@ body {
 
 .botonNegro:hover {
     background-color: white;
-    color: rgb(206, 137, 16);
-    border: 1px solid rgb(199, 179, 67);
+    color: rgb(240, 207, 101);
+    border: 1px solid rgb(240, 207, 101);
 }
 
 .botonBorde {
     background-color: white;
     padding: 20px;
     border-radius: 30px;
-    color: rgb(206, 137, 16);
+    color: rgb(240, 207, 101);
     border-radius: 35px;
-    border: 1px solid rgb(199, 179, 67);
+    border: 1px solid rgb(240, 207, 101);
     text-decoration: underline;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -95,17 +96,22 @@ body {
 
 /* logo sección */
 .logo {
-    width: 68px;
+    width: 28px;
+    height: 28px;
     padding: 10px;
-    border-radius: 140px;
+    border-radius: 50px;
+    border: 1px solid rgb(240, 207, 101);
     display: flex;
-    object-fit: fill;
-
+    /* object-fit: fill; */
 }
+.color {
+    color: rgb(240, 207, 101);
+}
+
 
 /* educación */
 .ed-section {
-    border-bottom: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(202, 202, 202);
     padding: 15px;
     border-radius: 7px;
     margin-bottom: 10px;
@@ -165,7 +171,7 @@ body {
     margin-right: 10px;
     width: fit-content;
     justify-content: center;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(245, 245, 244);
     color: black;
 }
 
@@ -210,7 +216,7 @@ body {
 }
 
 .flecha:hover {
-    background-color: rgb(243, 223, 112);
+    background-color: rgba(255, 228, 149, 0.334);
 }
 
 
@@ -287,7 +293,7 @@ body {
     height: 280px;
     width: 50px;
     border-radius: 30px;
-    background-color:rgb(239, 216, 89);
+    background-color:rgb(240, 207, 101);
     position: sticky;
     top: 60px;
     left: -30px;
@@ -302,25 +308,23 @@ body {
 }
 
 .nav-ico {
-    border-bottom: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(244, 244, 248);
     padding-bottom: 10px;
     padding-top: 10px;
-    color:rgb(159, 123, 6);
+    color:rgb(100, 100, 100);
 }
 
 .nav-ico0 {
     padding-bottom: 10px;
     padding-top: 10px;
-    color: rgb(159, 123, 6);
+    color: rgb(244, 244, 248);
 }
 
 .nav-ico:hover {
-    color: beige;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
 }
 
-.nav-ico0:hover {
-    color: beige;
-}
 
 /* redes */
 .container-3 {
@@ -357,7 +361,7 @@ body {
 .redes:hover {
     background-color: white;
     color: black;
-    border: 1px solid rgb(220, 168, 26);
+    border: 1px solid rgb(240, 207, 101);
 }
 a::after {
     text-decoration: none;
@@ -367,8 +371,8 @@ a::after {
     font-size: 15px;
     color: black;
 }
-.mail::after {
-    text-decoration: rgb(208, 117, 25);
+.mail:hover {
+    text-decoration: rgb(240, 207, 101);
 }
 
 
