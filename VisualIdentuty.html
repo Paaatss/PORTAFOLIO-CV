@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./screen.css">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="" href="./index.html">
+    <title>Project-WD</title>
+</head>
+<body>
+<!-- sticky-nav -->
+<div class="sticky-nav">
+            <div class="c-nav">
+                <a class="nav-ico" href="./index.html#home"><ion-icon size="large" name="home-outline"></ion-icon></a>
+                <a class="nav-ico" href="./index.html#educación"><ion-icon size="large" name="school-outline"></ion-icon></a>
+                <a class="nav-ico" href="./index.html#work"><ion-icon size="large"name="bag-outline"></ion-icon></ion-icon></a>
+                <a class="nav-ico" href="./index.html#servicios"><ion-icon size="large" name="star-outline"></ion-icon></a>
+                <a class="nav-ico" href="./index.html#contact"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></a>
+            </div>
+</div>
+
+
+<div class="container" id="webdesign">
+    <div class="section">
+        <div class="subcontainer">
+           <img src="./img/LOGOANIMADO.gif" class="img1">
+        </div>
+    </div>
+
+    <div class="title-section">
+        <h2>KOBOE FEST</h2>
+        <div class="w-capsula">
+            Rediseño de Identidad y Estrategia de Contenidos
+        </div>
+    </div>
+<div class="subcontainer">
+    <div class="logo-section">
+        <div class="d-img2">
+            <img src="./img/projects/Captura de pantalla 2024-08-28 184611.png" class="img3" >
+        </div>
+        <div class="d-img2">
+            <img src="./img/projects/ARTISTAS INVITADOS_alex klein2_alex klein2.jpg" class="img3" >
+        </div>
+        <div class="d-img2">
+            <img src="./img/projects/FLYER CONVOCATORIA KOBOE2024-01.jpg" class="img3" >
+        </div>
+        <div class="d-img2">
+            <div class="w-capsula">
+                <a href="./img/projects/CONVOCATORIA KOBOE FEST 2024_MOVIL.pdf" class="lk-none">CHECA LA<br> CONVOCATORIA<br> AQUÍ</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="serviceCont">
+
+    <div class="serviceTitle">
+        <h3>Acerca de</h3>
+        <button id="boton" onclick="ShowHide('texto')" class="flecha"> <ion-icon size="large"
+                name="caret-down-outline"class="color"></ion-icon></button>
+    </div>
+    <div class="text-project" id="texto">
+        <p>Rediseño de Identidad y Estrategia de Contenidos </p>
+
+        En este proyecto, me encargué de rediseñar el logotipo para reflejar mejor los objetivos del festival. Desarrollé una propuesta visual que definió los colores y la imagen del evento, sobre la cual se basó toda la comunicación. A partir de esta identidad, organicé un calendario de contenidos y produje materiales consistentes para asegurar una presentación coherente. Además, diseñé campañas de email marketing para ampliar el alcance y aumentar las ventas, gestioné la comunicación con clientes vía WhatsApp, y elaboré una estrategia de contenidos en redes sociales, enfocada en captar clientes rápidamente debido al tiempo limitado y a las necesidades urgentes del proyecto.</p>
+    </div>
+
+</div>
+
+
+<!-- contacto -->
+<div class="container-2" id="contact">
+    <div class="title-section">
+        <h2>CONTACT</h2>
+        <ion-icon size="large" name="chatbox-ellipses-outline">
+    </div>
+</div>
+<!-- contacto -->
+<form id="form">
+    <div class="form">
+        <div class="input-section">
+            <div class="input">
+                <label for="from_name"></label>
+                <input class="campo" type="name" placeholder="Nombre" name="from_name" id="from_name">
+            </div>
+            <div class="input2">
+                <label for="from_name"></label>
+                <input class="campo" type="email" placeholder="E-mail" name="email_id" id="email_id">
+            </div>
+        </div>
+
+        <div class="mensaje-section">
+            <label for="from_name"></label>
+            <textarea class="mensaje" placeholder="Mensaje" name="message" id="message"></textarea>
+        </div>
+    </div>
+    <div class="send">
+        <input class="botonNegro" type="submit" id="button" value="Send">
+    </div>
+
+</form>
+
+
+    <!-- scripts -->
+    
+
+    <script src="/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('CI-uZ2niUEMPNdchL')
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

@@ -199,7 +199,7 @@ body {
 .serviceText {
     margin-bottom: 16px;
     font-size: medium;
-    font-weight: 220;
+    line-height: 1.5;
 }
 
 #texto,
