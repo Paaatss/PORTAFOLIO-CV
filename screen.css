@@ -149,10 +149,18 @@
     }
 
     /* INDIVIDUAL */
+    .profile {
+        padding-left: 20px;
+    }
+    .botones1 {
+        margin-bottom: 20px;
+    }
     .botonBorde {
         margin-top: 5px;
     }
-
+.cardsection {
+    margin-left: 10px;
+}
     .w-capsula {
         margin-top: 10px;
         margin-left: 10px;
