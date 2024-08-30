@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./screen.css">
     <link rel="stylesheet" href="./project.css">
     <link rel="" href="./index.html">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Project-WD</title>
 </head>
 <body>
@@ -29,13 +30,13 @@
         </div>
     </div>
 
-    <div class="title-section">
+    <div class="title-section" data-aos="fade-up" data-aos-delay="100">
         <h2>KOBOE FEST</h2>
         <div class="w-capsula">
             Rediseño de Identidad y Estrategia de Contenidos
         </div>
     </div>
-<div class="subcontainer">
+<div class="subcontainer" data-aos="fade-up" data-aos-delay="200">
     <div class="logo-section">
         <div class="d-img2">
             <img src="./img/projects/Captura de pantalla 2024-08-28 184611.png" class="img3" >
@@ -54,7 +55,7 @@
     </div>
 </div>
 
-<div class="serviceCont">
+<div class="serviceCont" data-aos="fade-up" data-aos-delay="300">
 
     <div class="serviceTitle">
         <h3>Acerca de</h3>
@@ -74,7 +75,7 @@
 <div class="container-2" id="contact">
     <div class="title-section">
         <h2>CONTACT</h2>
-        <ion-icon size="large" name="chatbox-ellipses-outline">
+        <ion-icon size="large" class="color" name="chatbox-ellipses-outline">
     </div>
 </div>
 <!-- contacto -->
@@ -101,11 +102,7 @@
     </div>
 
 </form>
-
-
-    <!-- scripts -->
-    
-
+<!-- scripts -->
     <script src="/script.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -113,6 +110,11 @@
     </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
 </body>
 </html>

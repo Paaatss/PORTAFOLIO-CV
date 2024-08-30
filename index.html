@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animaciones.css">
     <link rel="stylesheet" href="./screen.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>PATRICIA SÁNCHEZ</title>
 </head>
 
@@ -16,15 +18,15 @@
         <div class="c-nav">
             <a class="nav-ico" href="#home"><ion-icon size="large" name="home-outline"></ion-icon></a>
             <a class="nav-ico" href="#educación"><ion-icon size="large" name="school-outline"></ion-icon></a>
-            <a class="nav-ico" href="#work"><ion-icon size="large"name="bag-outline"></ion-icon></ion-icon></a>
+            <a class="nav-ico" href="#work"><ion-icon size="large" name="bag-outline"></ion-icon></ion-icon></a>
             <a class="nav-ico" href="#servicios"><ion-icon size="large" name="star-outline"></ion-icon></a>
             <a class="nav-ico" href="#contact"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></a>
         </div>
     </div>
 
-<!-- intro -->
-    <div class="container" id="home">
-        <div class="section">
+    <!-- intro -->
+    <div class="container ">
+        <div class="section" id="home">
             <div class="item1">
                 <h1> Patricia Sánchez</h1>
                 <p> Desarrolladora Web y Diseñadora gráfica</p>
@@ -46,39 +48,38 @@
                 </div>
             </div>
         </div>
-<!-- logos -->
-        <div class="subcontainer">
-            <div class="logo-section">
-                <ion-icon size="large" name="logo-css3" class="logo color"></ion-icon>
-                <ion-icon name="logo-apple-appstore" class="logo color"></ion-icon>
-                <ion-icon name="code-outline" class="logo color"></ion-icon>
-                <ion-icon name="color-palette-outline" class="logo color"></ion-icon>
-                <ion-icon name="logo-javascript"class="logo color"></ion-icon>
-                <ion-icon name="play-circle-outline" class="logo color"></ion-icon>
+        <!-- logos -->
+        <div class="subcontainer ">
+            <div class="logo-section ">
+                <ion-icon size="large" name="logo-css3" class="logo color flip-vertical-fwd delay-1"></ion-icon>
+                <ion-icon name="logo-apple-appstore" class="logo color flip-vertical-fwd delay-2"></ion-icon>
+                <ion-icon name="code-outline" class="logo color flip-vertical-fwd delay-3"></ion-icon>
+                <ion-icon name="color-palette-outline" class="logo color flip-vertical-fwd delay-4"></ion-icon>
+                <ion-icon name="logo-javascript" class="logo color flip-vertical-fwd delay-5"></ion-icon>
+                <ion-icon name="play-circle-outline" class="logo color flip-vertical-fwd delay-6"></ion-icon>
             </div>
-    </div>
+        </div>
 
-<!-- educación -->
-        <div class="subcontainer" id="educación">
+        <!-- educación -->
+        <div class="subcontainer " id="educación">
             <div class="section">
-                <div class="item4">
-                    <div class="ed-section">
+                <div class="item4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ed-section" data-aos="fade-up" data-aos-delay="100">
                         <h2>EDUCACIÓN</h2>
-
                         <p>Comunicación y Periodismo con especialidad en televisión</p>
                         <div class="ed-text">
                             <p>FES ARAGÓN</p>
                             <div class="dates">2018-2021</div>
                         </div>
                     </div>
-                    <div class="ed-section">
+                    <div class="ed-section" data-aos="fade-up" data-aos-delay="200">
                         <p>Dirección de arte</p>
                         <div class="ed-text">
                             <p>FARO ARAGÓN</p>
                             <div class="dates">2020-2021</div>
                         </div>
                     </div>
-                    <div class="ed-section">
+                    <div class="ed-section" data-aos="fade-up" data-aos-delay="300">
                         <p>Web developer y AWS Cloud Computer Practitioner</p>
                         <div class="ed-text">
                             <p>JA'S AMERICA</p>
@@ -86,189 +87,211 @@
                         </div>
                     </div>
                 </div>
-                <div class="item5">
-                    <div class="ed-section">
+
+                <div class="item5" data-aos="fade-up" data-aos-delay="400">
+                    <div class="ed-section" data-aos="fade-up" data-aos-delay="500">
                         <h2>EXPERIENCIA</h2>
                         <p>Asistente de Arte</p>
                         <p>Salma- Warner music</p>
                         <div class="dates">2021</div>
                     </div>
-
-                    <div class="ed-section">
+                    <div class="ed-section" data-aos="fade-up" data-aos-delay="600">
                         <p>Content creator - Diseñador editorial</p>
                         <p>Freelancer</p>
                         <div class="dates">2020-2022</div>
                     </div>
-
-                    <div class="ed-section">
+                    <div class="ed-section" data-aos="fade-up" data-aos-delay="700">
                         <p>Diseñador gráfico - Content planner</p>
                         <p>Koboe Fest</p>
-                        <div class="dates"> Enero-junio 2024</div>
-                    </div>
-                </div>
-            </div>
-
-<!-- work -->
-            <div class="container-2" id="work">
-                <div class="title-section">
-                    <h2> WORK</h2>
-                    <ion-icon size="large"name="bag-outline" class="color"></ion-icon>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="item7">
-                    <img class="work" src="img/webdesign.jpg">
-                    <div class="cardsection">
-                        <a href="https://github.com/Paaatss/pulsopeak.git" class="work-title">Pulso Peak</a>
-                        <div class="w-capsula"> Diseño web </div>
-                    </div>
-                </div>
-                <div class="item7">
-                    <img class="work" src="img/DISEÑOEDITORIAL.gif">
-                    <div class="cardsection">
-                        <a href="./diseñoWeb.html" class="work-title">Un-identified</a>
-                        <div class="w-capsula"> Diseño Editorial</div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="item7">
-                    <img class="work" src="img/LOGOANIMADO.gif">
-                    <div class="cardsection">
-                        <a href="./VisualIdentuty.html" class="work-title">KOBOE FEST</a>
-                        <div class="w-capsula"> Graphic Design</div>
-                    </div>
-                </div>
-                <div class="item7">
-                    <img class="work" src="img/art assistant.png">
-                    <div class="cardsection">
-                        <a href="https://www.youtube.com/watch?v=PLOMB19_crE&list=PL785Nb90gLwOyRs_Up7cO-_QVYoW3xgZ4&index=6"
-                            class="work-title">Ep-Salma</a>
-                        <div class="w-capsula"> Asistente de arte</div>
+                        <div class="dates">Enero-junio 2024</div>
                     </div>
                 </div>
 
             </div>
+        </div>
 
-            <div class="logo-section">
-                Couriosu for more?
+
+        <!-- work -->
+        <div class="container-2" id="work">
+            <div class="title-section">
+                <h2> WORK</h2>
+                <ion-icon size="large" name="bag-outline" class="color"></ion-icon>
             </div>
-
-<!-- servicios -->
-            <div class="container-2" id="servicios">
-                <div class="title-section">
-                    <h2>SERVICES</h2>
-                    <ion-icon size="large" name="star-outline" class="color"></ion-icon>
+        </div>
+        <div class="card-container" data-aos="fade-up" data-aos-delay="50">
+            <div class="item7">
+                <img class="work" src="img/webdesign.jpg">
+                <div class="cardsection">
+                    <a href="https://github.com/Paaatss/pulsopeak.git" class="work-title">Pulso Peak</a>
+                    <div class="w-capsula"> Diseño web </div>
+                </div>
+            </div>
+            <div class="item7">
+                <img class="work" src="img/DISEÑOEDITORIAL.gif">
+                <div class="cardsection">
+                    <a href="./diseñoWeb.html" class="work-title">Un-identified</a>
+                    <div class="w-capsula"> Diseño Editorial</div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container" data-aos="fade-up" data-aos-delay="50">
+            <div class="item7">
+                <img class="work" src="img/LOGOANIMADO.gif">
+                <div class="cardsection">
+                    <a href="./VisualIdentuty.html" class="work-title">KOBOE FEST</a>
+                    <div class="w-capsula"> Graphic Design</div>
+                </div>
+            </div>
+            <div class="item7">
+                <img class="work" src="img/art assistant.png">
+                <div class="cardsection">
+                    <a href="https://www.youtube.com/watch?v=PLOMB19_crE&list=PL785Nb90gLwOyRs_Up7cO-_QVYoW3xgZ4&index=6"
+                        class="work-title">Ep-Salma</a>
+                    <div class="w-capsula"> Asistente de arte</div>
                 </div>
             </div>
 
-            <div class="serviceCont">
+        </div>
+
+        <div class="logo-section slide-in-bottom ">
+            Couriosu for more?
+        </div>
+
+        <!-- servicios -->
+        <div class="container-2" id="servicios" data-aos="fade-up" data-aos-delay="200">
+            <div class="title-section">
+                <h2>SERVICES</h2>
+                <ion-icon size="large" name="star-outline" class="color"></ion-icon>
+            </div>
+            <div class="serviceCont ">
 
                 <div class="serviceTitle">
                     <p>Diseño Gráfico y Branding</p>
                     <button id="boton" onclick="ShowHide('texto')" class="flecha"> <ion-icon size="large"
-                            name="caret-down-outline"class="color"></ion-icon></button>
+                            name="caret-down-outline" class="color"></ion-icon></button>
                 </div>
                 <div class="serviceText" id="texto">
-                    <p>Desarrollo de identidades visuales que capturan y comunican la esencia de tu marca. Desde la creación de logotipos hasta la implementación de sistemas de identidad, me aseguro de que cada elemento gráfico refleje los valores y la personalidad de tu negocio, creando una presencia visual profesional y memorable.</p>
+                    <p>Desarrollo de identidades visuales que capturan y comunican la esencia de tu marca. Desde la
+                        creación de logotipos hasta la implementación de sistemas de identidad, me aseguro de que cada
+                        elemento gráfico refleje los valores y la personalidad de tu negocio, creando una presencia
+                        visual profesional y memorable.</p>
                 </div>
 
             </div>
-            <div class="serviceCont">
+            <div class="serviceCont  ">
 
                 <div class="serviceTitle">
                     <p>Diseño Editorial</p>
                     <button id="boton2" onclick="ShowHide('texto2')" class="flecha"> <ion-icon size="large"
-                            name="caret-down-outline"class="color"></ion-icon></button>
+                            name="caret-down-outline" class="color"></ion-icon></button>
                 </div>
                 <div class="serviceText" id="texto2">
-                    <p> Especializada en la maquetación y diseño de publicaciones, ofrezco soluciones creativas para libros, revistas, catálogos, y folletos. Me enfoco en mejorar la legibilidad, la organización visual, y la estética del contenido, asegurando que cada publicación sea visualmente atractiva y comunique de manera efectiva.</p>
+                    <p> Especializada en la maquetación y diseño de publicaciones, ofrezco soluciones creativas para
+                        libros, revistas, catálogos, y folletos. Me enfoco en mejorar la legibilidad, la organización
+                        visual, y la estética del contenido, asegurando que cada publicación sea visualmente atractiva y
+                        comunique de manera efectiva.</p>
                 </div>
 
             </div>
-            <div class="serviceCont">
+            <div class="serviceCont  ">
 
                 <div class="serviceTitle">
                     <p>Desarrollo Web (Practicante)</p>
                     <button id="boton3" onclick="ShowHide('texto3')" class="flecha"> <ion-icon size="large"
-                            name="caret-down-outline"class="color"></ion-icon></button>
+                            name="caret-down-outline" class="color"></ion-icon></button>
                 </div>
                 <div class="serviceText" id="texto3">
-                    <p>Ofrezco servicios de diseño web enfocados en la creación de interfaces atractivas y funcionales. Aunque estoy en proceso de formación en desarrollo web, utilizo mis conocimientos en diseño gráfico para crear maquetas y prototipos que mejoren la experiencia del usuario. Mi objetivo es colaborar en proyectos que busquen una presencia online efectiva, trabajando en la estética y la usabilidad para asegurar que el sitio cumpla con las necesidades del cliente.</p>
+                    <p>Ofrezco servicios de diseño web enfocados en la creación de interfaces atractivas y funcionales.
+                        Aunque estoy en proceso de formación en desarrollo web, utilizo mis conocimientos en diseño
+                        gráfico para crear maquetas y prototipos que mejoren la experiencia del usuario. Mi objetivo es
+                        colaborar en proyectos que busquen una presencia online efectiva, trabajando en la estética y la
+                        usabilidad para asegurar que el sitio cumpla con las necesidades del cliente.</p>
                 </div>
 
             </div>
-            <div class="serviceCont">
+            <div class="serviceCont  ">
 
                 <div class="serviceTitle">
                     <p>Content Creation</p>
                     <button id="boton4" onclick="ShowHide('texto4')" class="flecha"> <ion-icon size="large"
-                            name="caret-down-outline"class="color"></ion-icon></button>
+                            name="caret-down-outline" class="color"></ion-icon></button>
                 </div>
                 <div class="serviceText" id="texto4">
-                    <p>Producción y planificación de contenido visual para redes sociales y plataformas digitales. Desarrollo contenido que no solo es visualmente atractivo, sino que también está alineado con la identidad de tu marca, ayudando a aumentar la interacción y el engagement en tus canales digitales.</p>
+                    <p>Producción y planificación de contenido visual para redes sociales y plataformas digitales.
+                        Desarrollo contenido que no solo es visualmente atractivo, sino que también está alineado con la
+                        identidad de tu marca, ayudando a aumentar la interacción y el engagement en tus canales
+                        digitales.</p>
                 </div>
 
             </div>
+        </div>
 
-
-
-<!-- contacto -->
-            <div class="container-2" id="contact">
-                <div class="title-section">
-                    <h2>CONTACT</h2>
-                    <ion-icon size="large" class="flecha" name="chatbox-ellipses-outline">
-                </div>
+        <!-- contacto -->
+        <div class="container-2" id="contact">
+            <div class="title-section">
+                <h2>CONTACT</h2>
+                <ion-icon size="large" class="color" name="chatbox-ellipses-outline">
             </div>
-            <!-- contacto -->
-            <form id="form">
-                <div class="form">
-                    <div class="input-section">
-                        <div class="input">
-                            <label for="from_name"></label>
-                            <input class="campo" type="name" placeholder="Nombre" name="from_name" id="from_name">
-                        </div>
-                        <div class="input2">
-                            <label for="from_name"></label>
-                            <input class="campo" type="email" placeholder="E-mail" name="email_id" id="email_id">
-                        </div>
-                    </div>
-
-                    <div class="mensaje-section">
+        </div>
+        <!-- contacto -->
+        <form id="form">
+            <div class="form">
+                <div class="input-section">
+                    <div class="input">
                         <label for="from_name"></label>
-                        <textarea class="mensaje" placeholder="Mensaje" name="message" id="message"></textarea>
+                        <input class="campo" type="name" placeholder="Nombre" name="from_name" id="from_name">
+                    </div>
+                    <div class="input2">
+                        <label for="from_name"></label>
+                        <input class="campo" type="email" placeholder="E-mail" name="email_id" id="email_id">
                     </div>
                 </div>
-                <div class="send">
-                    <input class="botonNegro" type="submit" id="button" value="Send">
-                </div>
 
-            </form>
-
-<!-- redes -->
-            <div class="container-3">
-                <div class="r-section">
-                    <div class="item9">
-                        <a href="https://www.linkedin.com/in/patriciasanchez96/" class="redes">LinkedIn</a>
-                        <a href="https://www.instagram.com/96dopp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                            class="redes">Instagram</a>
-                        <a href="https://es.fiverr.com/paaatss" class="redes">Fliver</a>
-                    </div>
-                    <a href="mailto:paaatss.30@gmail.com" class="mail">paaatss.30@gmail.com</a>
+                <div class="mensaje-section">
+                    <label for="from_name"></label>
+                    <textarea class="mensaje" placeholder="Mensaje" name="message" id="message"></textarea>
                 </div>
             </div>
+            <div class="send">
+                <input class="botonNegro" type="submit" id="button" value="Send">
+            </div>
 
-<!-- scripts -->
-            <script src="/script.js"></script>
-            <script src="email.js"></script>
-            <script type="text/javascript"
-                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        </form>
 
-            <script type="text/javascript">
-                emailjs.init('CI-uZ2niUEMPNdchL')
-            </script>
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!-- redes -->
+        <div class="container-3 slide-in-bottom ">
+            <div class="r-section">
+                <div class="item9">
+                    <a href="https://www.linkedin.com/in/patriciasanchez96/" class="redes" data-aos="flip-left"
+                        data-aos-delay="50">LinkedIn</a>
+                    <a href="https://www.instagram.com/96dopp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        class="redes" data-aos="flip-left" data-aos-delay="200">Instagram</a>
+                    <a href="https://es.fiverr.com/paaatss" class="redes" data-aos="flip-left"
+                        data-aos-delay="400">Fiverr</a>
+                </div>
+
+                <a href="mailto:paaatss.30@gmail.com" class="mail">paaatss.30@gmail.com</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="/script.js"></script>
+    <script src="email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('CI-uZ2niUEMPNdchL') </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+
 </body>
 
 </html>
