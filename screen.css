@@ -154,6 +154,9 @@
     }
     .botones1 {
         margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
     }
     .botonBorde {
         margin-top: 5px;

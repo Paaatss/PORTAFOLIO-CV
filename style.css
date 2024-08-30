@@ -216,6 +216,9 @@ body {
 
 .flecha:hover {
     background-color: rgba(255, 228, 149, 0.334);
+    border-radius: 50px;
+    width:fit-content;
+    height:fit-content;
 }
 
 
